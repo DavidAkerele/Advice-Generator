@@ -2,9 +2,9 @@
 
 :root {
   --light-cyan: hsl(193, 38%, 86%);
-  --neon-green: hsl(150, 100%, 66%);
-  --grayish-blue: hsl(217, 19%, 38%);
-  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --neon-green: hsl(199, 73%, 63%);
+  --grayish-blue: hsl(234, 50%, 50%);
+  --dark-grayish-blue: hsl(234, 57%, 23%);
 }
 
 * {
@@ -41,12 +41,13 @@ body {
   position: relative;
 }
 
-.container h1 {
+.container h1 ,h3 {
   color: var(--neon-green);
   font-size: 0.9rem;
   text-transform: uppercase;
   margin-bottom: 1.25rem;
   letter-spacing: 0.4rem;
+  display:flex;
 }
 
 .container p {
@@ -98,8 +99,9 @@ body {
 }
 
 .container button:hover {
-  background-color: hsl(150, 59%, 54%);
+  background-color: hsl(234, 50%, 60%);
 }
+
 
 @media (min-width: 500px) {
   .container {
